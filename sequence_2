@@ -1,0 +1,24 @@
+---ID---
+2
+---NAME---
+Sam20190622
+---CREATED---
+1561182878
+---UPDATED---
+1561182878
+---DESCRIPTION---
+move test
+---END_OF_DESCRIPTION---
+---BLOCKLY_XML---
+<xml xmlns="http://www.w3.org/1999/xhtml"><block type="niryo_one_move_pose" id="Y:=fYMkXwd=;{VWNHg1/" x="-270" y="-210"><field name="POSE_X">0.251</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_move_pose" id="==`|a1TZ6F%NcGm%=5j9"><field name="POSE_X">0.251</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.115</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_close_gripper" id="3]356iqnIxdQ/Y}~.AP|"><field name="CLOSE_SPEED">250</field><value name="CLOSE_GRIPPER_ID"><block type="niryo_one_tool_select" id="fq-v5V`w/x[Bx!gD5[PB"><field name="TOOL_SELECT">TOOL_GRIPPER_1_ID</field></block></value><next><block type="niryo_one_move_pose" id="liQoVw~q;:VE;8zbU8lJ"><field name="POSE_X">0.251</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_sleep" id="~Ia[hE1+T8,lbcRp+!Fq"><value name="SLEEP_TIME"><block type="math_number" id="f`GOa`O3gIee7;CvtD=g"><field name="NUM">2</field></block></value><next><block type="niryo_one_move_pose" id="4M=o|y4=}N,Zq~VC?FEu"><field name="POSE_X">0.251</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.115</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_open_gripper" id="W;_=`1RKoSf9[7`Lmnpv"><field name="OPEN_SPEED">250</field><value name="OPEN_GRIPPER_ID"><block type="niryo_one_tool_select" id="fOr2NVZ_dK^5/$Qs,9hT"><field name="TOOL_SELECT">TOOL_GRIPPER_1_ID</field></block></value></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>
+---END_OF_BLOCKLY_XML---
+---PYTHON_CODE---
+n.move_pose(0.251, 0.264, 0.15, 0.073, 1.577, 1.558)
+n.move_pose(0.251, 0.264, 0.115, 0.073, 1.577, 1.558)
+n.close_gripper(TOOL_GRIPPER_1_ID, 250)
+n.move_pose(0.251, 0.264, 0.15, 0.073, 1.577, 1.558)
+n.wait(2)
+n.move_pose(0.251, 0.264, 0.115, 0.073, 1.577, 1.558)
+n.open_gripper(TOOL_GRIPPER_1_ID, 250)
+
+---END_OF_PYTHON_CODE---

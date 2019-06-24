@@ -1,0 +1,35 @@
+---ID---
+4
+---NAME---
+Sam190622T3
+---CREATED---
+1561195305
+---UPDATED---
+1561195305
+---DESCRIPTION---
+move 1-2 to 1-5 (fix tool change)
+---END_OF_DESCRIPTION---
+---BLOCKLY_XML---
+<xml xmlns="http://www.w3.org/1999/xhtml"><block type="niryo_one_change_tool" id="FUJi{SEcr^Xo4,r31U_)" x="-330" y="-430"><value name="NEW_TOOL_ID"><block type="niryo_one_tool_select" id="o2hZdH:lK5}(DB_jy`Wo"><field name="TOOL_SELECT">TOOL_GRIPPER_1_ID</field></block></value><next><block type="controls_repeat_ext" id="s[#BLCmari5eJoKtWDf1"><value name="TIMES"><shadow type="math_number" id="EWWd8GD)`oF$fU%PJQk6"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="niryo_one_move_pose" id="Y:=fYMkXwd=;{VWNHg1/"><field name="POSE_X">0.255</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_move_pose" id="==`|a1TZ6F%NcGm%=5j9"><field name="POSE_X">0.255</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.115</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_close_gripper" id="3]356iqnIxdQ/Y}~.AP|"><field name="CLOSE_SPEED">1000</field><value name="CLOSE_GRIPPER_ID"><block type="niryo_one_tool_select" id="fq-v5V`w/x[Bx!gD5[PB"><field name="TOOL_SELECT">TOOL_GRIPPER_1_ID</field></block></value><next><block type="niryo_one_move_pose" id="liQoVw~q;:VE;8zbU8lJ"><field name="POSE_X">0.255</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_move_pose" id="|u5T]B4FFT+?poTg$8Zo"><field name="POSE_X">0.262</field><field name="POSE_Y">0.193</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0</field><field name="POSE_PITCH">1.55</field><field name="POSE_YAW">-1.601</field><next><block type="niryo_one_sleep" id="~Ia[hE1+T8,lbcRp+!Fq"><value name="SLEEP_TIME"><block type="math_number" id="f`GOa`O3gIee7;CvtD=g"><field name="NUM">2</field></block></value><next><block type="niryo_one_move_pose" id="~WQvlP7[GPYEP)u.P3AG"><field name="POSE_X">0.262</field><field name="POSE_Y">0.193</field><field name="POSE_Z">0.115</field><field name="POSE_ROLL">0</field><field name="POSE_PITCH">1.55</field><field name="POSE_YAW">-1.601</field><next><block type="niryo_one_open_gripper" id="W;_=`1RKoSf9[7`Lmnpv"><field name="OPEN_SPEED">250</field><value name="OPEN_GRIPPER_ID"><block type="niryo_one_tool_select" id="fOr2NVZ_dK^5/$Qs,9hT"><field name="TOOL_SELECT">TOOL_GRIPPER_1_ID</field></block></value><next><block type="niryo_one_move_pose" id="tQi`PQ+/lN:#inB2|Ua["><field name="POSE_X">0.262</field><field name="POSE_Y">0.193</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0</field><field name="POSE_PITCH">1.55</field><field name="POSE_YAW">-1.601</field><next><block type="niryo_one_move_pose" id="BWtjqpb0!Xz^Hq(-nJB1"><field name="POSE_X">0.262</field><field name="POSE_Y">0.193</field><field name="POSE_Z">0.115</field><field name="POSE_ROLL">0</field><field name="POSE_PITCH">1.55</field><field name="POSE_YAW">-1.601</field><next><block type="niryo_one_close_gripper" id="?oT+|a0Brs_95Xzj1PG!"><field name="CLOSE_SPEED">1000</field><value name="CLOSE_GRIPPER_ID"><block type="niryo_one_tool_select" id="y*M?T}Fnk|P;|;%Ja7hi"><field name="TOOL_SELECT">TOOL_GRIPPER_1_ID</field></block></value><next><block type="niryo_one_move_pose" id="kyjUCu{AnXMC,SLA^.9L"><field name="POSE_X">0.262</field><field name="POSE_Y">0.193</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0</field><field name="POSE_PITCH">1.55</field><field name="POSE_YAW">-1.601</field><next><block type="niryo_one_move_pose" id="zTHy+=AdB~)f+E@[E#@9"><field name="POSE_X">0.255</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_move_pose" id="e_m3~YDmKL@Zlk_Cn}]3"><field name="POSE_X">0.255</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.115</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field><next><block type="niryo_one_open_gripper" id="VuIJZh4KTxz@`vP`C8p_"><field name="OPEN_SPEED">250</field><value name="OPEN_GRIPPER_ID"><block type="niryo_one_tool_select" id="=!.WF932(j[vfE8r`v0!"><field name="TOOL_SELECT">TOOL_GRIPPER_1_ID</field></block></value><next><block type="niryo_one_move_pose" id=":xdN`|F=%xslWfpi`+`d"><field name="POSE_X">0.255</field><field name="POSE_Y">0.264</field><field name="POSE_Z">0.15</field><field name="POSE_ROLL">0.073</field><field name="POSE_PITCH">1.577</field><field name="POSE_YAW">1.558</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></xml>
+---END_OF_BLOCKLY_XML---
+---PYTHON_CODE---
+n.change_tool(TOOL_GRIPPER_1_ID)
+for count in range(10):
+  n.move_pose(0.255, 0.264, 0.15, 0.073, 1.577, 1.558)
+  n.move_pose(0.255, 0.264, 0.115, 0.073, 1.577, 1.558)
+  n.close_gripper(TOOL_GRIPPER_1_ID, 1000)
+  n.move_pose(0.255, 0.264, 0.15, 0.073, 1.577, 1.558)
+  n.move_pose(0.262, 0.193, 0.15, 0, 1.55, -1.601)
+  n.wait(2)
+  n.move_pose(0.262, 0.193, 0.115, 0, 1.55, -1.601)
+  n.open_gripper(TOOL_GRIPPER_1_ID, 250)
+  n.move_pose(0.262, 0.193, 0.15, 0, 1.55, -1.601)
+  n.move_pose(0.262, 0.193, 0.115, 0, 1.55, -1.601)
+  n.close_gripper(TOOL_GRIPPER_1_ID, 1000)
+  n.move_pose(0.262, 0.193, 0.15, 0, 1.55, -1.601)
+  n.move_pose(0.255, 0.264, 0.15, 0.073, 1.577, 1.558)
+  n.move_pose(0.255, 0.264, 0.115, 0.073, 1.577, 1.558)
+  n.open_gripper(TOOL_GRIPPER_1_ID, 250)
+  n.move_pose(0.255, 0.264, 0.15, 0.073, 1.577, 1.558)
+
+---END_OF_PYTHON_CODE---
